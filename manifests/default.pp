@@ -2,7 +2,7 @@ stage{
 		'setup':;
 }
 
-Stage['setup'] => Stage['main']
+Stage['setup'] -> Stage['main']
 
 class{
 		'setup': stage => 'setup';
